@@ -44,13 +44,13 @@ class _MyHomePageState extends State<solidbottomsheet> {
                 ButtonTheme(
                   child: ButtonBar(
                     children: <Widget>[
-                      FlatButton(
+                      MaterialButton(
                         child: const Text('NOPE'),
                         onPressed: () {
                           /* ... */
                         },
                       ),
-                      FlatButton(
+                      MaterialButton(
                         child: const Text('YEAH'),
                         onPressed: () {
                           /* ... */

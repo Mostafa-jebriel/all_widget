@@ -231,7 +231,7 @@ class _TextFormState extends State<TextFormPage> {
             ),
             Container(
               margin: EdgeInsets.fromLTRB(20, 0, 20, 0),
-              child: FlatButton(
+              child: MaterialButton(
                 onPressed: () {
                   setState(() {
                     //s=myc.text;

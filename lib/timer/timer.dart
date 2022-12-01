@@ -53,9 +53,9 @@ class _MyAppState extends State<TimerPage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                FlatButton.icon(onPressed: ()=> rstartT(30), icon:Icon(Icons.replay), label:Text("Restart")),
-                FlatButton.icon(onPressed: pauseT, icon:Icon(Icons.pause), label:Text("Pause")),
-                FlatButton.icon(onPressed: playT, icon:Icon(Icons.play_arrow), label:Text("Play")),
+                IconButton(onPressed: ()=> rstartT(30), icon:Icon(Icons.replay)),
+                IconButton(onPressed: pauseT, icon:Icon(Icons.pause)),
+                IconButton(onPressed: playT, icon:Icon(Icons.play_arrow)),
               ],
             )
 

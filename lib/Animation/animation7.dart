@@ -23,7 +23,7 @@ class _AnimatedContainerAppState extends State<Animation7> {
               SizedBox(
                 height: 10,
               ),
-              RaisedButton(
+              MaterialButton(
                   child: Text("fade"),
                   onPressed: () {
                     Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: Animation2()));
@@ -31,7 +31,7 @@ class _AnimatedContainerAppState extends State<Animation7> {
               SizedBox(
                 height: 10,
               ),
-              RaisedButton(
+              MaterialButton(
                   child: Text("leftToRight"),
                   onPressed: () {
                     Navigator.push(context, PageTransition(type: PageTransitionType.leftToRight, child: Animation2()));
@@ -39,7 +39,7 @@ class _AnimatedContainerAppState extends State<Animation7> {
               SizedBox(
                 height: 10,
               ),
-              RaisedButton(
+              MaterialButton(
                   child: Text("rightToLeft"),
                   onPressed: () {
                     Navigator.push(context, PageTransition(type: PageTransitionType.rightToLeft, child: Animation2()));
@@ -47,7 +47,7 @@ class _AnimatedContainerAppState extends State<Animation7> {
               SizedBox(
                 height: 10,
               ),
-              RaisedButton(
+              MaterialButton(
                   child: Text("topToBottom"),
                   onPressed: () {
                     Navigator.push(context, PageTransition(type: PageTransitionType.topToBottom, child: Animation2()));
@@ -55,7 +55,7 @@ class _AnimatedContainerAppState extends State<Animation7> {
               SizedBox(
                 height: 10,
               ),
-              RaisedButton(
+              MaterialButton(
                   child: Text("bottomToTop"),
                   onPressed: () {
                     Navigator.push(context, PageTransition(type: PageTransitionType.bottomToTop, child: Animation2()));
@@ -63,7 +63,7 @@ class _AnimatedContainerAppState extends State<Animation7> {
               SizedBox(
                 height: 10,
               ),
-              RaisedButton(
+              MaterialButton(
                   child: Text("scale"),
                   onPressed: () {
                     Navigator.push(context, PageTransition(type: PageTransitionType.scale, alignment: Alignment.centerRight, child: Animation2()));
@@ -71,7 +71,7 @@ class _AnimatedContainerAppState extends State<Animation7> {
               SizedBox(
                 height: 10,
               ),
-              RaisedButton(
+              MaterialButton(
                   child: Text("size"),
                   onPressed: () {
                     Navigator.push(context, PageTransition(type: PageTransitionType.size, alignment: Alignment.centerRight,child: Animation2()));
@@ -79,7 +79,7 @@ class _AnimatedContainerAppState extends State<Animation7> {
               SizedBox(
                 height: 10,
               ),
-              RaisedButton(
+              MaterialButton(
                   child: Text("rotate"),
                   onPressed: () {
                     Navigator.push(context, PageTransition(type: PageTransitionType.rotate, alignment: Alignment.centerRight, child: Animation2()));
@@ -87,7 +87,7 @@ class _AnimatedContainerAppState extends State<Animation7> {
               SizedBox(
                 height: 10,
               ),
-              RaisedButton(
+              MaterialButton(
                   child: Text("rightToLeftWithFade"),
                   onPressed: () {
                     Navigator.push(context, PageTransition(type: PageTransitionType.rightToLeftWithFade, child: Animation2()));
@@ -95,7 +95,7 @@ class _AnimatedContainerAppState extends State<Animation7> {
               SizedBox(
                 height: 10,
               ),
-              RaisedButton(
+              MaterialButton(
                   child: Text("leftToRightWithFade"),
                   onPressed: () {
                     Navigator.push(context, PageTransition(type: PageTransitionType.leftToRightWithFade, child: Animation2()));

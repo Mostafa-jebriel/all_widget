@@ -25,7 +25,7 @@ class _NormalBottomState extends State<NormalBottom> {
                 style: TextStyle(fontSize: 30, color: Colors.red),
               ),
               Builder(
-                  builder: (ctx) => FlatButton(
+                  builder: (ctx) => MaterialButton(
                       child: Text("Reside Menu"),
                       onPressed: () => Navigator.push(ctx,
                           MaterialPageRoute(builder: (_) => Page2())))),

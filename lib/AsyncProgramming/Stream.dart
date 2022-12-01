@@ -35,7 +35,7 @@ class _MyAppState extends State<Streams> {
                     Text((s.hasData && x<=10)?"${s.data}":"0"),
                     Text("$d"+" new value"),
                     SizedBox(height: 10,),
-                    RaisedButton(
+                    MaterialButton(
                       child: Text("Click me"),
                       onPressed: () {
                         print("Test stream");

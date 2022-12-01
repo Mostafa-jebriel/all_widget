@@ -39,7 +39,7 @@ class MyHome extends StatelessWidget {
                 ),
               ),
             ),
-            RaisedButton(
+            MaterialButton(
               child: Text(
                 "Isolate",
                 style: TextStyle(
@@ -51,7 +51,7 @@ class MyHome extends StatelessWidget {
                 go(context, 1);
               },
             ),
-            RaisedButton(
+            MaterialButton(
               child: Text(
                 "Future",
                 style: TextStyle(
@@ -63,7 +63,7 @@ class MyHome extends StatelessWidget {
                 go(context, 2);
               },
             ),
-            RaisedButton(
+            MaterialButton(
               child: Text(
                 "Streams",
                 style: TextStyle(

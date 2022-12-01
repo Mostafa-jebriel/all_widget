@@ -27,7 +27,7 @@ class MainTimer extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              RaisedButton(
+              MaterialButton(
                 child: Text(
                   "Timer 1",
                   style: TextStyle(
@@ -41,7 +41,7 @@ class MainTimer extends StatelessWidget {
                   }));
                 },
               ),
-              RaisedButton(
+              MaterialButton(
                 child: Text(
                   "circular countdown timer",
                   style: TextStyle(
@@ -55,7 +55,7 @@ class MainTimer extends StatelessWidget {
                   }));
                 },
               ),
-              RaisedButton(
+              MaterialButton(
                 child: Text(
                   "stop watch timer",
                   style: TextStyle(
@@ -69,7 +69,7 @@ class MainTimer extends StatelessWidget {
                   }));
                 },
               ),
-              RaisedButton(
+              MaterialButton(
                 child: Text(
                   "custom timer ",
                   style: TextStyle(
@@ -83,7 +83,7 @@ class MainTimer extends StatelessWidget {
                   }));
                 },
               ),
-              RaisedButton(
+              MaterialButton(
                 child: Text(
                   "Slide Countdown",
                   style: TextStyle(
@@ -97,7 +97,7 @@ class MainTimer extends StatelessWidget {
                   }));
                 },
               ),
-              RaisedButton(
+              MaterialButton(
                 child: Text(
                   "timer countdown 2",
                   style: TextStyle(

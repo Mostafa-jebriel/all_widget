@@ -19,7 +19,7 @@ class _MyAppState extends State<Isolate> {
         automaticallyImplyLeading: false,
       ),
       body: Center(
-        child: RaisedButton(
+        child: MaterialButton(
           child: Text("Click me"),
           onPressed: () {
             //Isolate.spawn(blockApp, 2);

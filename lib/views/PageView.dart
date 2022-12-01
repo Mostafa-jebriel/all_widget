@@ -117,7 +117,7 @@ class _PageState extends State<PageViewPage> {
                   child: Container(
                     width: double.infinity,
                     margin: EdgeInsets.fromLTRB(20, 0, 20, 15),
-                    child: RaisedButton(
+                    child: MaterialButton(
                       child: Text(
                         "Get Started",
                         style: TextStyle(color: Colors.white, fontSize: 25),

@@ -17,7 +17,7 @@ class SimpleDialogWidget extends StatelessWidget {
             SimpleDialogOption(
               padding: EdgeInsets.symmetric(horizontal: 24, vertical: 20),
               onPressed: () {
-                Utils.showSnackBar(context, title: 'Selected Option 1');
+               // Utils.showSnackBar(context, title: 'Selected Option 1');
                 Navigator.pop(context);
               },
               child: Text('Option 1', style: TextStyle(fontSize: 16)),
@@ -26,7 +26,7 @@ class SimpleDialogWidget extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: 24, vertical: 20),
               child: Text('Option 2', style: TextStyle(fontSize: 16)),
               onPressed: () {
-                Utils.showSnackBar(context, title: 'Selected Option 2');
+             //   Utils.showSnackBar(context, title: 'Selected Option 2');
                 Navigator.pop(context);
               },
             ),
@@ -34,7 +34,7 @@ class SimpleDialogWidget extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: 24, vertical: 20),
               child: Text('Option 3', style: TextStyle(fontSize: 16)),
               onPressed: () {
-                Utils.showSnackBar(context, title: 'Selected Option 3');
+               // Utils.showSnackBar(context, title: 'Selected Option 3');
                 Navigator.pop(context);
               },
             ),

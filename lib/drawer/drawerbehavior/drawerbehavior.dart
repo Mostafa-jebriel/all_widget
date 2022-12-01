@@ -30,7 +30,7 @@ class _MyAppState extends State<Drawer_Behavior> {
   Widget createButton(context, {text, navigate, color}) {
     return SizedBox(
         width: double.infinity,
-        child: RaisedButton(
+        child: MaterialButton(
             child: Text(text),
             color: color,
             onPressed: () {

@@ -10,7 +10,7 @@ class ButtonWidget extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) => RaisedButton(
+  Widget build(BuildContext context) => MaterialButton(
         child: Text(
           text,
           style: TextStyle(fontSize: 24),

@@ -18,7 +18,7 @@ class PickImages extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              RaisedButton(
+              MaterialButton(
                 child: Text(" single image"),
                 color: Colors.indigo,
                 shape: RoundedRectangleBorder(
@@ -28,7 +28,7 @@ class PickImages extends StatelessWidget {
                   go1(context);
                 },
               ),
-              RaisedButton(
+              MaterialButton(
                 child: Text(" Mlut image"),
                 color: Colors.indigo,
                 shape: RoundedRectangleBorder(

@@ -29,7 +29,7 @@ class _Home2State extends State<Home2> {
               Text("Age: $a"),
               Text("Double: $d"),
               Text("bool: $b"),
-              RaisedButton(
+              MaterialButton(
                 child: Text("Get Data"),
                 onPressed: () async {
                   await getData();

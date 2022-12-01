@@ -5,7 +5,6 @@ import 'package:auth_buttons/auth_buttons.dart';
 import 'package:like_button/like_button.dart';
 import 'package:sign_button/sign_button.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:argon_buttons_flutter/argon_buttons_flutter.dart';
 
 class Buttons extends StatefulWidget {
   @override
@@ -66,27 +65,23 @@ class ButtonsState extends State<Buttons> {
                 SizedBox(
                   height: 10,
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     setState(() {
                       s = "flutter 1";
                       c = Colors.brown;
                     });
                   },
-                  splashColor: Colors.green,
-                  padding: EdgeInsets.all(10),
-                  color: Colors.blue,
                   child: Text(
                     "click",
                     style: TextStyle(fontSize: 20),
                   ),
-                  textColor: Colors.red,
                 ),
                 SizedBox(
                   height: 10,
                   width: 10,
                 ),
-                RaisedButton(
+                MaterialButton(
                   onPressed: () {
                     setState(() {
                       c = Colors.blue;
@@ -99,13 +94,13 @@ class ButtonsState extends State<Buttons> {
                   },
                   color: Colors.green,
                   highlightColor: Colors.brown,
-                  child: Text("RaisedButton"),
+                  child: Text("v"),
                   textColor: Colors.yellow,
                 ),
                 SizedBox(
                   height: 10,
                 ),
-                FlatButton(
+                MaterialButton(
                   onPressed: null,
                   child: Text(
                     "FlatButton",
@@ -119,209 +114,6 @@ class ButtonsState extends State<Buttons> {
                     //  borderRadius: BorderRadius.all(Radius.circular(30)),
                     borderRadius: BorderRadius.circular(20),
                     side: BorderSide(color: Colors.red, width: 3),
-                  ),
-                ),
-                Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(30),
-                    boxShadow: [
-                      BoxShadow(
-                        offset: Offset(-28,-28),
-                        color: Colors.white,
-                        blurRadius: 30.0
-                    ),
-                      BoxShadow(
-                        offset: Offset(28,28),
-                        color: Color(0xffa7a9af),
-                        blurRadius: 30.0
-                      ),
-                    ]
-                  ),
-                  child: SizedBox(height: 200,width: 200,),
-                ),
-                Center(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      ArgonTimerButton(
-                        height: 50,
-                        width: MediaQuery.of(context).size.width * 0.45,
-                        minWidth: MediaQuery.of(context).size.width * 0.30,
-                        highlightColor: Colors.transparent,
-                        highlightElevation: 0,
-                        roundLoadingShape: false,
-                        onTap: (startTimer, btnState) {
-                          if (btnState == ButtonState.Idle) {
-                            startTimer(5);
-                          }
-                        },
-                        // initialTimer: 10,
-                        child: Text(
-                          "Resend OTP",
-                          style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 18,
-                              fontWeight: FontWeight.w700),
-                        ),
-                        loader: (timeLeft) {
-                          return Text(
-                            "Wait | $timeLeft",
-                            style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 18,
-                                fontWeight: FontWeight.w700),
-                          );
-                        },
-                        borderRadius: 5.0,
-                        color: Colors.transparent,
-                        elevation: 0,
-                        borderSide: BorderSide(color: Colors.black, width: 1.5),
-                      ),
-                      SizedBox(
-                        height: 50,
-                      ),
-                      ArgonTimerButton(
-                        height: 50,
-                        width: MediaQuery.of(context).size.width * 0.45,
-                        onTap: (startTimer, btnState) {
-                          if (btnState == ButtonState.Idle) {
-                            startTimer(5);
-                          }
-                        },
-                        child: Text(
-                          "Resend OTP",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 18,
-                              fontWeight: FontWeight.w700),
-                        ),
-                        loader: (timeLeft) {
-                          return Container(
-                            decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: BorderRadius.circular(50)),
-                            margin: EdgeInsets.all(5),
-                            alignment: Alignment.center,
-                            width: 40,
-                            height: 40,
-                            child: Text(
-                              "$timeLeft",
-                              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
-                            ),
-                          );
-                        },
-                        borderRadius: 5.0,
-                        color: Color(0xFF7866FE),
-                      ),
-                      SizedBox(
-                        height: 50,
-                      ),
-                      ArgonTimerButton(
-                        height: 50,
-                        width: MediaQuery.of(context).size.width * 0.45,
-                        minWidth: MediaQuery.of(context).size.width * 0.30,
-                        highlightColor: Colors.transparent,
-                        highlightElevation: 0,
-                        roundLoadingShape: false,
-                        splashColor: Colors.transparent,
-                        onTap: (startTimer, btnState) {
-                          if (btnState == ButtonState.Idle) {
-                            startTimer(5);
-                          }
-                        },
-                        // initialTimer: 10,
-                        child: Text(
-                          "Resend OTP",
-                          style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 18,
-                              fontWeight: FontWeight.w700),
-                        ),
-                        loader: (timeLeft) {
-                          return Text(
-                            "Wait | $timeLeft",
-                            style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 18,
-                                fontWeight: FontWeight.w700),
-                          );
-                        },
-                        borderRadius: 5.0,
-                        color: Colors.transparent,
-                        elevation: 0,
-                      ),
-                      SizedBox(
-                        height: 50,
-                      ),
-                      Container(
-                        margin: EdgeInsets.fromLTRB(40, 0, 40, 0),
-                        height: 1,
-                        color: Colors.black,
-                      ),
-                      SizedBox(
-                        height: 50,
-                      ),
-                      ArgonButton(
-                        height: 50,
-                        roundLoadingShape: true,
-                        width: MediaQuery.of(context).size.width * 0.45,
-                        onTap: (startLoading, stopLoading, btnState) {
-                          if (btnState == ButtonState.Idle) {
-                            startLoading();
-                          } else {
-                            stopLoading();
-                          }
-                        },
-                        child: Text(
-                          "SignUp",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 18,
-                              fontWeight: FontWeight.w700),
-                        ),
-                        loader: Container(
-                          padding: EdgeInsets.all(10),
-                          child: SpinKitRotatingCircle(
-                            color: Colors.white,
-                            // size: loaderWidth ,
-                          ),
-                        ),
-                        borderRadius: 5.0,
-                        color: Color(0xFFfb4747),
-                      ),
-                      SizedBox(
-                        height: 50,
-                      ),
-                      ArgonButton(
-                        height: 50,
-                        roundLoadingShape: false,
-                        width: MediaQuery.of(context).size.width * 0.45,
-                        minWidth: MediaQuery.of(context).size.width * 0.30,
-                        onTap: (startLoading, stopLoading, btnState) {
-                          if (btnState == ButtonState.Idle) {
-                            startLoading();
-                          } else {
-                            stopLoading();
-                          }
-                        },
-                        child: Text(
-                          "Continue",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 18,
-                              fontWeight: FontWeight.w700),
-                        ),
-                        loader: Text(
-                          "Loading...",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 18,
-                              fontWeight: FontWeight.w700),
-                        ),
-                        borderRadius: 5.0,
-                        color: Color(0xFF7866FE),
-                      ),
-                    ],
                   ),
                 ),
                 SizedBox(

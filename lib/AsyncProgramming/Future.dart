@@ -34,7 +34,7 @@ class _MyAppState extends State<Futures> {
                   Text(s.hasData?"${s.data}":"0"),
                   Text("$d"+" new value"),
                   SizedBox(height: 10,),
-                  RaisedButton(
+                  MaterialButton(
                     child: Text("Click me"),
                     onPressed: () {
                       print("Test Futures");

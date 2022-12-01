@@ -105,7 +105,7 @@ class Dark extends StatelessWidget {
                           fontWeight: FontWeight.bold
                       ),),
                       SizedBox(height: 10,),
-                      RaisedButton(
+                      MaterialButton(
                         child: Text('Dark Mode',style: TextStyle(color: Colors.white),),
                         onPressed: (){},
                         color: Colors.black,

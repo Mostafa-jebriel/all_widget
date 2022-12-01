@@ -23,7 +23,7 @@ class SecondPage extends StatelessWidget {
                 style: Theme.of(context).textTheme.subtitle1,
               ),
               const SizedBox(height: 8),
-              RaisedButton(
+              MaterialButton(
                 child: Text('Back'),
                 onPressed: () => Navigator.pop(context),
               ),

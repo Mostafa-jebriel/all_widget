@@ -249,7 +249,7 @@ class _State extends State<CountUpTimerPage> {
                   children: <Widget>[
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 4),
-                      child: RaisedButton(
+                      child: MaterialButton(
                         padding: const EdgeInsets.all(4),
                         color: Colors.lightBlue,
                         shape: const StadiumBorder(),
@@ -264,7 +264,7 @@ class _State extends State<CountUpTimerPage> {
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 4),
-                      child: RaisedButton(
+                      child: MaterialButton(
                         padding: const EdgeInsets.all(4),
                         color: Colors.green,
                         shape: const StadiumBorder(),
@@ -279,7 +279,7 @@ class _State extends State<CountUpTimerPage> {
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 4),
-                      child: RaisedButton(
+                      child: MaterialButton(
                         padding: const EdgeInsets.all(4),
                         color: Colors.red,
                         shape: const StadiumBorder(),
@@ -301,7 +301,7 @@ class _State extends State<CountUpTimerPage> {
                     children: <Widget>[
                       Padding(
                         padding: const EdgeInsets.all(0).copyWith(right: 8),
-                        child: RaisedButton(
+                        child: MaterialButton(
                           padding: const EdgeInsets.all(4),
                           color: Colors.deepPurpleAccent,
                           shape: const StadiumBorder(),
@@ -324,7 +324,7 @@ class _State extends State<CountUpTimerPage> {
                     children: <Widget>[
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 4),
-                        child: RaisedButton(
+                        child: MaterialButton(
                           padding: const EdgeInsets.all(4),
                           color: Colors.pinkAccent,
                           shape: const StadiumBorder(),
@@ -339,7 +339,7 @@ class _State extends State<CountUpTimerPage> {
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 4),
-                        child: RaisedButton(
+                        child: MaterialButton(
                           padding: const EdgeInsets.all(4),
                           color: Colors.pinkAccent,
                           shape: const StadiumBorder(),
@@ -354,7 +354,7 @@ class _State extends State<CountUpTimerPage> {
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 4),
-                        child: RaisedButton(
+                        child: MaterialButton(
                           padding: const EdgeInsets.all(4),
                           color: Colors.pinkAccent,
                           shape: const StadiumBorder(),
@@ -372,7 +372,7 @@ class _State extends State<CountUpTimerPage> {
                 ),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 4),
-                  child: RaisedButton(
+                  child: MaterialButton(
                     padding: const EdgeInsets.all(4),
                     color: Colors.pinkAccent,
                     shape: const StadiumBorder(),

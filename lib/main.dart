@@ -132,7 +132,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                       child: const Text(
                         "Drawer",
                         style: TextStyle(
@@ -147,7 +147,7 @@ class _MyhomeState extends State<Myhome> {
                         }));
                       },
                     ),
-                    RaisedButton(
+                    MaterialButton(
                       child: const Text(
                         "Bottom Navigation",
                         style: TextStyle(
@@ -162,7 +162,7 @@ class _MyhomeState extends State<Myhome> {
                         }));
                       },
                     ),
-                    RaisedButton(
+                    MaterialButton(
                       child: const Text(
                         "Tab Bar",
                         style: TextStyle(
@@ -183,7 +183,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                       child: const Text(
                         "Date picker",
                         style: TextStyle(
@@ -198,7 +198,7 @@ class _MyhomeState extends State<Myhome> {
                         }));
                       },
                     ),
-                    RaisedButton(
+                    MaterialButton(
                       child: const Text(
                         "Expandable ListView",
                         style: TextStyle(
@@ -213,7 +213,7 @@ class _MyhomeState extends State<Myhome> {
                         }));
                       },
                     ),
-                    ElevatedButton(
+                    MaterialButton(
                       child: const Text('All Widget'),
                       onPressed: () {
                         Navigator.of(context)
@@ -228,7 +228,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    ElevatedButton(
+                    MaterialButton(
                       child: const Text('Bottom Sheet'),
                       onPressed: () {
                         showModalBottomSheet<void>(
@@ -255,7 +255,7 @@ class _MyhomeState extends State<Myhome> {
                         );
                       },
                     ),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Date",
@@ -270,7 +270,7 @@ class _MyhomeState extends State<Myhome> {
                             lastDate: DateTime.now(),
                           );
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Dialog",
@@ -286,7 +286,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Snack Bar",
@@ -306,9 +306,9 @@ class _MyhomeState extends State<Myhome> {
                               onPressed: () {},
                             ),
                           );
-                          _x.currentState!.showSnackBar(sbar);
+                         // _x.currentState!.showSnackBar(sbar);
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Flush Bar",
@@ -328,7 +328,7 @@ class _MyhomeState extends State<Myhome> {
                             ),
                             duration: Duration(seconds: 4),
                             icon: Icon(Icons.backpack),
-                            mainButton: FlatButton(
+                            mainButton: MaterialButton(
                               child: Text("Undo"),
                               onPressed: () {
                                 Navigator.of(context).pop();
@@ -336,7 +336,7 @@ class _MyhomeState extends State<Myhome> {
                             ),
                           ).show(context);
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Image Slider",
@@ -355,7 +355,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "List Wheel",
@@ -368,7 +368,7 @@ class _MyhomeState extends State<Myhome> {
                             return ListWheel();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Page View",
@@ -381,7 +381,7 @@ class _MyhomeState extends State<Myhome> {
                             return PageViewPage();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Dismissible",
@@ -400,7 +400,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Grid View",
@@ -413,7 +413,7 @@ class _MyhomeState extends State<Myhome> {
                             return GridViewPage();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "List View",
@@ -426,7 +426,7 @@ class _MyhomeState extends State<Myhome> {
                             return ListViewPage();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Marquee",
@@ -445,7 +445,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Date Time Picker",
@@ -458,7 +458,7 @@ class _MyhomeState extends State<Myhome> {
                             return GridViewPage();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Table",
@@ -471,7 +471,7 @@ class _MyhomeState extends State<Myhome> {
                             return TablePage();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Dialog",
@@ -490,7 +490,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Splash Screen",
@@ -503,7 +503,7 @@ class _MyhomeState extends State<Myhome> {
                             return Splash();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Notifications",
@@ -516,7 +516,7 @@ class _MyhomeState extends State<Myhome> {
                             return MainNotifications();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Shared Preferences",
@@ -535,7 +535,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Provider",
@@ -548,7 +548,7 @@ class _MyhomeState extends State<Myhome> {
                             return MainProvider();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Async Programming",
@@ -561,7 +561,7 @@ class _MyhomeState extends State<Myhome> {
                             return AsyncProgramming();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Image Picker",
@@ -580,7 +580,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Timer",
@@ -593,7 +593,7 @@ class _MyhomeState extends State<Myhome> {
                             return MainTimer();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Bloc",
@@ -606,7 +606,7 @@ class _MyhomeState extends State<Myhome> {
                             return BlocPage();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Dark Mode",
@@ -625,7 +625,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Card Swiper",
@@ -638,7 +638,7 @@ class _MyhomeState extends State<Myhome> {
                             return card_swiper();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Figma Squircle",
@@ -651,7 +651,7 @@ class _MyhomeState extends State<Myhome> {
                             return figma_squircle();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Sliver AppBar",
@@ -670,7 +670,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "url launcher",
@@ -683,7 +683,7 @@ class _MyhomeState extends State<Myhome> {
                             return urllauncher();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "url launcher2",
@@ -696,7 +696,7 @@ class _MyhomeState extends State<Myhome> {
                             return urllauncher2();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "mailer send",
@@ -715,7 +715,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Set Alarm",
@@ -728,7 +728,7 @@ class _MyhomeState extends State<Myhome> {
                             return Alarm();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Set Alarm",
@@ -741,7 +741,7 @@ class _MyhomeState extends State<Myhome> {
                             return Alarm2();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Clock",
@@ -760,7 +760,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Animated_List",
@@ -773,7 +773,7 @@ class _MyhomeState extends State<Myhome> {
                             return Animated_List();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "IOS",
@@ -786,7 +786,7 @@ class _MyhomeState extends State<Myhome> {
                             return IOS();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Animation",
@@ -805,7 +805,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "AllNotifications",
@@ -825,7 +825,7 @@ class _MyhomeState extends State<Myhome> {
                                 notificationAppLaunchDetails);
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Screen size",
@@ -838,7 +838,7 @@ class _MyhomeState extends State<Myhome> {
                             return SizePage();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Screen size 2",
@@ -857,7 +857,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "web view",
@@ -869,7 +869,7 @@ class _MyhomeState extends State<Myhome> {
                             initialUrl: 'https://www.imdb.com/?ref_=nv_home',
                           );
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "camera",
@@ -882,7 +882,7 @@ class _MyhomeState extends State<Myhome> {
                             return CameraApp();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Progress Bar Indicator ",
@@ -901,7 +901,7 @@ class _MyhomeState extends State<Myhome> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "CustomClipper",
@@ -914,7 +914,7 @@ class _MyhomeState extends State<Myhome> {
                             return WaveClipper();
                           }));
                         }),
-                    RaisedButton(
+                    MaterialButton(
                         padding: EdgeInsets.all(5),
                         child: const Text(
                           "Ball 3D",
@@ -955,7 +955,7 @@ class _MyhomeState extends State<Myhome> {
             ),
             SizedBox(
               width: double.infinity,
-              child: RaisedButton(
+              child: MaterialButton(
                 onPressed: () {
                   Navigator.of(context).pop();
                 },

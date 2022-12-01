@@ -13,7 +13,7 @@ class MainNotifications extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          RaisedButton(
+          MaterialButton(
               padding: EdgeInsets.all(5),
               child:const Text(
                 "Notifications 1",
@@ -25,7 +25,7 @@ class MainNotifications extends StatelessWidget {
                   return Notifications();
                 }));
               }),
-          RaisedButton(
+          MaterialButton(
               padding: EdgeInsets.all(5),
               child:const Text(
                 "Notifications 2",
@@ -37,7 +37,7 @@ class MainNotifications extends StatelessWidget {
                   return MainN1();
                 }));
               }),
-          RaisedButton(
+          MaterialButton(
               padding: EdgeInsets.all(5),
               child:const Text(
                 "Notifications 3",
@@ -49,7 +49,7 @@ class MainNotifications extends StatelessWidget {
                   return MainN2();
                 }));
               }),
-          RaisedButton(
+          MaterialButton(
               padding: EdgeInsets.all(5),
               child:const Text(
                 "Notifications 4",

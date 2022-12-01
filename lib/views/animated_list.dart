@@ -72,7 +72,7 @@ class _MainPageState extends State<MainPage> {
         onClicked: () => removeItem(index),
       );
 
-  Widget buildInsertButton() => RaisedButton(
+  Widget buildInsertButton() => MaterialButton(
     child: Text(
       'Insert item',
       style: TextStyle(fontSize: 20),

@@ -23,11 +23,11 @@ class _State extends State<Page2> with SingleTickerProviderStateMixin{
         children: [
           Text("data",style: TextStyle(fontSize: 10,color: Colors.black),),
           Text("data3",style: TextStyle(fontSize: 10,color: Colors.black),),
-          RaisedButton(onPressed: null,child: Text("bbbb"),),
-          RaisedButton(onPressed: null,child: Text("bbbb"),),
-          FlatButton.icon(onPressed: null, icon:Icon(Icons.map), label:Text("map")),
-          FlatButton.icon(onPressed: null, icon:Icon(Icons.map), label:Text("map")),
-          FlatButton.icon(onPressed: null, icon:Icon(Icons.map), label:Text("map")),
+          MaterialButton(onPressed: null,child: Text("bbbb"),),
+          MaterialButton(onPressed: null,child: Text("bbbb"),),
+          MaterialButton(onPressed: null, child:Icon(Icons.map)),
+          // FlatButton.icon(onPressed: null, icon:Icon(Icons.map), label:Text("map")),
+          // FlatButton.icon(onPressed: null, icon:Icon(Icons.map), label:Text("map")),
         ],
       ),
       decoration: BoxDecoration(

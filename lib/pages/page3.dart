@@ -23,7 +23,7 @@ class Page3 extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 30,width: 20,),
-              RaisedButton(
+              MaterialButton(
                 child: Text(
                   "Button 1",
                   style: TextStyle(
@@ -34,7 +34,7 @@ class Page3 extends StatelessWidget {
                 onPressed: (){},
               ),
               SizedBox(height: 30,width: 20,),
-              RaisedButton(
+              MaterialButton(
                 child: Text(
                   "Button 1",
                   style: TextStyle(

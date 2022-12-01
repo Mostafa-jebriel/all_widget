@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
               SizedBox(height: 8),
               AboutDialogWidget(),
               SizedBox(height: 8),
-              RaisedButton(
+              MaterialButton(
                 child: Text(
                   'Select Dialog',
                   style: TextStyle(fontSize: 24),
@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
                 },
               ),
               SizedBox(height: 8),
-              RaisedButton(
+              MaterialButton(
                 child: Text(
                   'RatingDialog',
                   style: TextStyle(fontSize: 24),

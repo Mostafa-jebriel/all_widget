@@ -30,7 +30,7 @@ class AllWidget extends StatelessWidget {
           child: SingleChildScrollView(
             child: Column(
               children: [
-                RaisedButton(
+                MaterialButton(
                   child: Text(
                     "Buttons",
                     style: TextStyle(
@@ -44,7 +44,7 @@ class AllWidget extends StatelessWidget {
                     }));
                   },
                 ),
-                RaisedButton(
+                MaterialButton(
                   child: Text(
                     "Text",
                     style: TextStyle(
@@ -58,7 +58,7 @@ class AllWidget extends StatelessWidget {
                     }));
                   },
                 ),
-                RaisedButton(
+                MaterialButton(
                   child: Text(
                     "Text Form",
                     style: TextStyle(
@@ -72,7 +72,7 @@ class AllWidget extends StatelessWidget {
                     }));
                   },
                 ),
-                RaisedButton(
+                MaterialButton(
                   child: Text(
                     "Slider",
                     style: TextStyle(
@@ -86,7 +86,7 @@ class AllWidget extends StatelessWidget {
                     }));
                   },
                 ),
-                RaisedButton(
+                MaterialButton(
                   child: Text(
                     "dropdown plus",
                     style: TextStyle(
@@ -100,7 +100,7 @@ class AllWidget extends StatelessWidget {
                     }));
                   },
                 ),
-                RaisedButton(
+                MaterialButton(
                   child: Text(
                     "flutter neumorphic",
                     style: TextStyle(
@@ -114,7 +114,7 @@ class AllWidget extends StatelessWidget {
                     }));
                   },
                 ),
-                RaisedButton(
+                MaterialButton(
                   child: Text(
                     "Animated Neumorphic",
                     style: TextStyle(
@@ -128,7 +128,7 @@ class AllWidget extends StatelessWidget {
                     }));
                   },
                 ),
-                RaisedButton(
+                MaterialButton(
                   child: Text(
                     "phone field ",
                     style: TextStyle(

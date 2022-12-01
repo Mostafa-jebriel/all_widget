@@ -30,18 +30,18 @@ class _MyAppState extends State<DismissiblePage> {
 
             onDismissed: (DismissDirection dir) {
               setState(() => li.removeAt(i));
-              Scaffold.of(ctx).showSnackBar(SnackBar(
-                content: Text(dir ==DismissDirection.startToEnd?"$it Deleted":"$it like"),
-                action: SnackBarAction(
-                  label: "Undo",
-                  onPressed: (){
-                    setState(() {
-                      li.insert(i, it);
-                    });
-                  },
-                ),
-
-              ));
+              // Scaffold.of(ctx).showSnackBar(SnackBar(
+              //   content: Text(dir ==DismissDirection.startToEnd?"$it Deleted":"$it like"),
+              //   action: SnackBarAction(
+              //     label: "Undo",
+              //     onPressed: (){
+              //       setState(() {
+              //         li.insert(i, it);
+              //       });
+              //     },
+              //   ),
+              //
+              // ));
             },
             background: Container(
               color: Colors.red,

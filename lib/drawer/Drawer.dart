@@ -26,7 +26,7 @@ class DrawerPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              RaisedButton(
+              MaterialButton(
                 child: const Text(
                   "Sidebar",
                   style: TextStyle(
@@ -40,7 +40,7 @@ class DrawerPage extends StatelessWidget {
                   }));
                 },
               ),
-              RaisedButton(
+              MaterialButton(
                 child: const Text(
                   "Side Navigation",
                   style: TextStyle(
@@ -60,7 +60,7 @@ class DrawerPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              RaisedButton(
+              MaterialButton(
                 child: const Text(
                   "elastic drawer",
                   style: TextStyle(
@@ -74,7 +74,7 @@ class DrawerPage extends StatelessWidget {
                   }));
                 },
               ),
-              RaisedButton(
+              MaterialButton(
                 child: const Text(
                   "curved drawer fork",
                   style: TextStyle(
@@ -94,7 +94,7 @@ class DrawerPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              RaisedButton(
+              MaterialButton(
                 child: const Text(
                   "flutter_zoom_drawer",
                   style: TextStyle(
@@ -108,7 +108,7 @@ class DrawerPage extends StatelessWidget {
                   }));
                 },
               ),
-              RaisedButton(
+              MaterialButton(
                 child: const Text(
                   "flutter_inner_drawer",
                   style: TextStyle(
@@ -128,7 +128,7 @@ class DrawerPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              RaisedButton(
+              MaterialButton(
                 child: const Text(
                   "kf_drawer",
                   style: TextStyle(
@@ -142,7 +142,7 @@ class DrawerPage extends StatelessWidget {
                   }));
                 },
               ),
-              RaisedButton(
+              MaterialButton(
                 child: const Text(
                   "Drawer Behavior",
                   style: TextStyle(
@@ -166,7 +166,7 @@ class DrawerPage extends StatelessWidget {
             SizedBox(
               height: 5,
             ),
-            RaisedButton(
+            MaterialButton(
               child: Text(
                 "Button 1",
                 style: TextStyle(
@@ -179,7 +179,7 @@ class DrawerPage extends StatelessWidget {
             SizedBox(
               height: 5,
             ),
-            RaisedButton(
+            MaterialButton(
               child: Text(
                 "Button 1",
                 style: TextStyle(
@@ -192,7 +192,7 @@ class DrawerPage extends StatelessWidget {
             SizedBox(
               height: 5,
             ),
-            RaisedButton(
+            MaterialButton(
               child: Text(
                 "Button 1",
                 style: TextStyle(
@@ -205,7 +205,7 @@ class DrawerPage extends StatelessWidget {
             SizedBox(
               height: 5,
             ),
-            RaisedButton(
+            MaterialButton(
               child: Text(
                 "Button 1",
                 style: TextStyle(
@@ -218,7 +218,7 @@ class DrawerPage extends StatelessWidget {
             SizedBox(
               height: 5,
             ),
-            RaisedButton(
+            MaterialButton(
               child: Text(
                 "Button 1",
                 style: TextStyle(
@@ -231,7 +231,7 @@ class DrawerPage extends StatelessWidget {
             SizedBox(
               height: 5,
             ),
-            RaisedButton(
+            MaterialButton(
               child: Text(
                 "Button 1",
                 style: TextStyle(

@@ -46,29 +46,29 @@ class _MainN2State extends State<MainN2> {
           child: ListView(
             children: <Widget>[
               title('Basics'),
-              RaisedButton(
+              MaterialButton(
                 child: Text('Show notification'),
                 onPressed: () => showOngoingNotification(notifications,
                     title: 'Tite', body: 'Body'),
               ),
-              RaisedButton(
+              MaterialButton(
                 child: Text('Replace notification'),
                 onPressed: () => showOngoingNotification(notifications,
                     title: 'ReplacedTitle', body: 'ReplacedBody'),
               ),
-              RaisedButton(
+              MaterialButton(
                 child: Text('Other notification'),
                 onPressed: () => showOngoingNotification(notifications,
                     title: 'OtherTitle', body: 'OtherBody', id: 20),
               ),
               const SizedBox(height: 32),
               title('Feautures'),
-              RaisedButton(
+              MaterialButton(
                 child: Text('Silent notification'),
                 onPressed: () => showSilentNotification(notifications,
                     title: 'SilentTitle', body: 'SilentBody', id: 30),
               ),
-              RaisedButton(
+              MaterialButton(
                 child: Text('Show image (small)'),
                 onPressed: () => showIconNotification(
                   context,
@@ -79,7 +79,7 @@ class _MainN2State extends State<MainN2> {
                   id: 40,
                 ),
               ),
-              RaisedButton(
+              MaterialButton(
                 child: Text('Show image (big)'),
                 onPressed: () => showImageNotification(
                   context,
@@ -90,7 +90,7 @@ class _MainN2State extends State<MainN2> {
                   id: 40,
                 ),
               ),
-              RaisedButton(
+              MaterialButton(
                 child: Text('Show image (big+small)'),
                 onPressed: () => showIconAndImageNotification(
                   context,
@@ -104,7 +104,7 @@ class _MainN2State extends State<MainN2> {
               ),
               const SizedBox(height: 32),
               title('Cancel'),
-              RaisedButton(
+              MaterialButton(
                 child: Text('Cancel all notification'),
                 onPressed: notifications.cancelAll,
               ),

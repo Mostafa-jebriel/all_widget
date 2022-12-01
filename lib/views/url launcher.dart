@@ -263,7 +263,7 @@ class _MainPageState extends State<urllauncher2> {
   }) =>
       Container(
         padding: EdgeInsets.symmetric(vertical: 12),
-        child: RaisedButton(
+        child: MaterialButton(
           shape: StadiumBorder(),
           onPressed: onClicked,
           color: Colors.red,

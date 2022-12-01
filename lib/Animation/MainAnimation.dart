@@ -39,7 +39,7 @@ class _MyAppState extends State<MyHome> {
             SizedBox(
               height: 10,
             ),
-            RaisedButton(
+            MaterialButton(
                 child: Text("Animation1"),
                 onPressed: () {
                   Navigator.of(context)
@@ -48,7 +48,7 @@ class _MyAppState extends State<MyHome> {
             SizedBox(
               height: 10,
             ),
-            RaisedButton(
+            MaterialButton(
                 child: Text("Animation 2"),
                 onPressed: () {
                   Navigator.of(context)
@@ -57,7 +57,7 @@ class _MyAppState extends State<MyHome> {
             SizedBox(
               height: 10,
             ),
-            RaisedButton(
+            MaterialButton(
                 child: Text("Animation 3"),
                 onPressed: () {
                   Navigator.of(context)
@@ -66,7 +66,7 @@ class _MyAppState extends State<MyHome> {
             SizedBox(
               height: 10,
             ),
-            RaisedButton(
+            MaterialButton(
                 child: Text("Animation 4"),
                 onPressed: () {
                   Navigator.of(context)
@@ -75,7 +75,7 @@ class _MyAppState extends State<MyHome> {
             SizedBox(
               height: 10,
             ),
-            RaisedButton(
+            MaterialButton(
                 child: Text("Animation 5"),
                 onPressed: () {
                   Navigator.of(context)
@@ -84,7 +84,7 @@ class _MyAppState extends State<MyHome> {
             SizedBox(
               height: 10,
             ),
-            RaisedButton(
+            MaterialButton(
                 child: Text("Animation 6"),
                 onPressed: () {
                   Navigator.of(context)
@@ -94,7 +94,7 @@ class _MyAppState extends State<MyHome> {
               height: 10,
             ),
             Builder(
-                builder: (ctx) => FlatButton(
+                builder: (ctx) => MaterialButton(
                     child: Hero(
                       tag: "a",
                       child: FlutterLogo(
@@ -103,7 +103,7 @@ class _MyAppState extends State<MyHome> {
                     ),
                     onPressed: () => Navigator.push(ctx,
                         MaterialPageRoute(builder: (_) => test())))),
-            RaisedButton(
+            MaterialButton(
                 child: Text("go to page with Animation"),
                 onPressed: () {
                   Navigator.of(context)
